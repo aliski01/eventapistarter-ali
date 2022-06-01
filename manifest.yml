@@ -1,0 +1,9 @@
+---
+applications:
+  - name: EventApiStarter
+
+    buildpacks:
+    - java_buildpack_offline
+
+    stack: cflinuxfs3
+    path: target/EventApiStarter-0.0.1-SNAPSHOT.jar
